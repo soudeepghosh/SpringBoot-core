@@ -1,0 +1,3 @@
+spring.application.name=05-SpringBoot-@ConfigurationProperties2-AllTypesOfInput
+
+#Pre-Defined Keys...

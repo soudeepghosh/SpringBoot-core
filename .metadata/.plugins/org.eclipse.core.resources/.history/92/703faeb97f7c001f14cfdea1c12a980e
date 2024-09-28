@@ -1,0 +1,16 @@
+package in.demo.soudeep.bean;
+
+import java.io.Serializable;
+
+public class Student implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	private Integer sid;
+	private String sname;
+	private Integer sage;
+	private String saddress;
+}
