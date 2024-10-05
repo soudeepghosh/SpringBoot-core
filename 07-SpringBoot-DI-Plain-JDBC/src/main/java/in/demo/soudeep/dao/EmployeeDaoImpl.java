@@ -25,6 +25,7 @@ public class EmployeeDaoImpl implements IEmployeeDao {
 	
 	@Override
 	public List<EmployeeBo> fetchEmpByDesg(String condition) throws Exception {
+		System.out.println(dataSource.getClass().getName());
 		String query = SQL_SELECT_QUERY+condition+" ORDER BY ename";
 		System.out.println(query);
 		List<EmployeeBo> listBo = new ArrayList<>();

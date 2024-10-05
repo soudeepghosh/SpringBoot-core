@@ -57,7 +57,7 @@ public class Application {
 				e.printStackTrace();
 			}
 		
-		
+		scanner.close();
 		((ConfigurableApplicationContext) context).close();
 		// Stop the container
 		System.out.println("***********Container Stopped****************");
