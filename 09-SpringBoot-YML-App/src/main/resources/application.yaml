@@ -1,0 +1,39 @@
+emp:
+  info:
+    eid: 10
+    
+    #String
+    name: Sachin
+    
+    #Array
+    nickNames: MasterBlaster, LittleMaster
+    
+    #List
+    friendsNames: Dravid, Kambli, GG
+    
+    #Set
+    phoneNumber: 9977443322, 8877445599
+    
+    #Map<K,V>
+    bankDetails:
+      FEDERAL: 33224455
+      SBI: 55448877
+      HDFC: 88774422
+    
+    #HAS-A
+    company: 
+      title: NCA
+      location: Bengaluru
+      course: Mentoring 
+
+
+#emp.info.name = sachin
+#emp.info.eid  = 10
+#emp.info.nickNames = masterblaster,littlemaster
+#emp.info.friendsNames = saurav,dravid,sehwagh,yuvi
+#emp.info.phoneNumber = 7778889997, 9998887776,8886667775
+#emp.info.bankDetails.canarabank = 2223335
+#emp.info.bankDetails.sbibank    = 3335552
+#emp.info.company.title = BCCI 
+#emp.info.company.location = Delhi 
+       
